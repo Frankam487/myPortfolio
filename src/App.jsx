@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import FormContact from "./components/FormContact";
+import FormulaireContact from "./components/FormulaireContact ";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
@@ -23,6 +24,7 @@ const App = () => {
         <FormContact/>
         <Projects />
         <TypingText/>
+        <FormulaireContact/>
         <Contact />
       </div>
     </div>
