@@ -13,6 +13,7 @@ const NavBar = () => {
       </div>
 
       <Icons />
+
     </nav>
   );
 };

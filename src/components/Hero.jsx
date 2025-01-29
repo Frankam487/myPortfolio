@@ -1,5 +1,6 @@
-import { HERO_CONTENT } from "../constants";
+
 import {  motion } from "framer-motion";
+import TypingText from "./TypingText";
 
 const container = (delay) => ({
   hidden: { x: -100, y: 100, opacity: 0 },
@@ -40,9 +41,10 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="mt-10 mb-14 text-2xl text-gray-500  p-4 text-justify"
+              className="mt-10 mb-14 text-2xl text-gray-500 text-justify"
             >
-              {HERO_CONTENT}
+              {/* {HERO_CONTENT} */}
+              <TypingText/>
             </motion.p>
           </div>
         </div>

@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import TypingText from "./components/TypingText";
+import TextTyping from "./components/TypingText";
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
         <Experiences />
         <FormContact/>
         <Projects />
+        <TypingText/>
         <Contact />
       </div>
     </div>
