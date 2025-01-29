@@ -1,6 +1,7 @@
 
 import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
+import Icons from './Icons';
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
@@ -19,6 +20,7 @@ const Contact = () => {
           {CONTACT.email}
         </a>
       </div>
+      <Icons />
     </div>
   );
 };
