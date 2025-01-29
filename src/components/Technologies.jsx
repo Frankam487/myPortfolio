@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
+import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
+import { SiMongodb, SiPhp } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -51,7 +51,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className=" text-7xl" />
+          <TbBrandTailwind className=" text-cyan-400 text-7xl" />
         </motion.div>
 
         <motion.div
@@ -68,7 +68,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-green-500 text-7xl" />
+          <SiPhp className="text-blue-500 text-7xl" />
         </motion.div>
 
         <motion.div

@@ -1,4 +1,4 @@
-import project1 from "../assetss/projects/project-1.jpg";
+import project1 from "../assetss/projects/beauty.jpg";
 import project2 from "../assetss/projects/project-2.jpg";
 import project3 from "../assetss/projects/project-3.jpg";
 import project4 from "../assetss/projects/project-4.jpg";
@@ -17,8 +17,9 @@ export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyva
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
+    role: "Developpeur Full Stack",
     company: "Google Inc.",
+    link: "https://business-beauty.vercel.app",
     description: `Dirigé une équipe dans le développement et la maintenance d’applications web en utilisant JavaScript, React.js et Node.js. Mis en place des API RESTful et intégré des bases de données MongoDB. Collaboré avec les parties prenantes pour définir les exigences du projet et les délais.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
@@ -26,6 +27,7 @@ export const EXPERIENCES = [
     year: "2022 - 2023",
     role: "Frontend Developer",
     company: "Adobe",
+    link: "https://business-beauty.vercel.app/",
     description: `Conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. Travaillé en étroite collaboration avec les développeurs back-end pour intégrer les composants front-end avec les API Node.js. Mis en œuvre des designs responsifs et optimisé les performances du front-end.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
@@ -33,6 +35,7 @@ export const EXPERIENCES = [
     year: "2021 - 2022",
     role: "Full Stack Developer",
     company: "Facebook",
+    link: "https://business-beauty.vercel.app",
     description: `Développé et maintenu des applications web en utilisant JavaScript, React.js et Node.js. Conçu et mis en place des API RESTful pour la communication des données. Collaboré avec des équipes pluridisciplinaires pour livrer des produits logiciels de haute qualité dans les délais impartis.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
@@ -40,6 +43,7 @@ export const EXPERIENCES = [
     year: "2020 - 2021",
     role: "Software Engineer",
     company: "Paypal",
+    link: "https://business-beauty.vercel.app",
     description: `Contribué au développement d’applications web en utilisant JavaScript, React.js et Node.js. Géré des bases de données et mis en place des solutions de stockage de données avec MongoDB. Travaillé en étroite collaboration avec les chefs de produit pour prioriser les fonctionnalités et les améliorations.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
@@ -47,11 +51,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "House Beauty",
     image: project1,
     description:
-      "Un site e-commerce entièrement fonctionnel avec des fonctionnalités telles que la liste des produits, le panier d'achat et l'authentification des utilisateurs.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Éclat & Élégance est un site dédié à la beauté, au bien-être et à l'art de se sentir bien dans sa peau. Nous offrons une large gamme de produits de soins de la peau, de maquillage et d'accessoires haut de gamme, soigneusement sélectionnés pour répondre à tous vos besoins. Que vous cherchiez des solutions pour votre peau, des conseils de maquillage professionnels ou des inspirations pour un look tendance, notre site est là pour vous guider. Découvrez des tutoriels détaillés, des critiques honnêtes de produits et des recommandations personnalisées pour sublimer votre beauté naturelle. Avec Éclat & Élégance, chaque moment est une occasion de vous sentir rayonnante et confiante.",
+    technologies: ["Tailwindcss", "React-icons", "React", "Node.js"],
   },
   {
     title: "Task Management App",

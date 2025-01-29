@@ -3,14 +3,14 @@ import { PROJECTS } from "../constants";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 ">
+    <div className="border-b border-neutral-900 py-12">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-12 font-bold text-4xl  text-center"
+        className="font-bold mb-16 text-4xl text-center"
       >
-        Projet
+        Mes Projets
       </motion.h2>
       <div className="flex flex-col justify-center items-center">
         {PROJECTS.map((project, index) => (
@@ -21,13 +21,19 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              <a
+                href={project.link} // Lien dynamique basé sur chaque projet
+                target="_blank"
+                rel="noopener noreferrer" // Sécurise les liens externes
+              >
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="mb-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+                  width="250"
+                  height="250"
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -35,16 +41,19 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h3 className="mb-2 text-2xl font-semibold">{project.title}</h3>{" "}
+              {/* Modifié en h3 */}
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
-                  key={index}
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                    key={index}
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
