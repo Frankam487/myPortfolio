@@ -43,7 +43,7 @@ const Hero = () => {
               animate="visible"
               className="mt-10 mb-14 text-2xl text-gray-500 text-justify"
             >
-             
+
               <TypingText />
             </motion.p>
           </div>
@@ -59,9 +59,9 @@ const Hero = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.2 }}
-              src="./photo_2025-01-29_15-41-24.jpg"
-              className="md:w-full  object-cover mt-16 h-dvh
-              shadow-lg rounded-4xl w-5/5"
+              src="../../public/vite.svg"
+              className="md:w-full h-20  object-cover mt-16
+              shadow-lg rounded-4xl "
               alt="frank kamgang"
             />
           </motion.div>
