@@ -35,6 +35,7 @@ export const EXPERIENCES = [
     year: "2021 - 2022",
     role: "Full Stack Developer",
     company: "Facebook",
+
     link: "https://business-beauty.vercel.app",
     description: `Développé et maintenu des applications web en utilisant JavaScript, React.js et Node.js. Conçu et mis en place des API RESTful pour la communication des données. Collaboré avec des équipes pluridisciplinaires pour livrer des produits logiciels de haute qualité dans les délais impartis.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
@@ -53,6 +54,7 @@ export const PROJECTS = [
   {
     title: "House Beauty",
     image: project1,
+    link: "https://business-beauty.vercel.app/",
     description:
       "Éclat & Élégance est un site dédié à la beauté, au bien-être et à l'art de se sentir bien dans sa peau. Nous offrons une large gamme de produits de soins de la peau, de maquillage et d'accessoires haut de gamme, soigneusement sélectionnés pour répondre à tous vos besoins. Que vous cherchiez des solutions pour votre peau, des conseils de maquillage professionnels ou des inspirations pour un look tendance, notre site est là pour vous guider. Découvrez des tutoriels détaillés, des critiques honnêtes de produits et des recommandations personnalisées pour sublimer votre beauté naturelle. Avec Éclat & Élégance, chaque moment est une occasion de vous sentir rayonnante et confiante.",
     technologies: ["Tailwindcss", "React-icons", "React", "Node.js"],
@@ -60,6 +62,7 @@ export const PROJECTS = [
   {
     title: "Task Management App",
     image: project2,
+    link: "https://business-beauty.vercel.app/",
     description:
       "Une application de gestion des tâches et des projets, avec des fonctionnalités telles que la création de tâches, l’attribution et le suivi de la progression.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
@@ -67,6 +70,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://business-beauty.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwindcss"],
@@ -74,6 +78,7 @@ export const PROJECTS = [
   {
     title: "Blogging Platform",
     image: project4,
+    link: "https://business-beauty.vercel.app/",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
