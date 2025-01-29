@@ -23,7 +23,7 @@ const Hero = () => {
               animate="visible"
               className="pb-14 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Frank Kamgang
+              Crafting Digital Experiences
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -31,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Developpeur Front
+              Magicien du Front-End
               <strong className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text">
                 ~
               </strong>
@@ -44,7 +44,7 @@ const Hero = () => {
               className="mt-10 mb-14 text-2xl text-gray-500 text-justify"
             >
               {/* {HERO_CONTENT} */}
-              <TypingText/>
+              <TypingText />
             </motion.p>
           </div>
         </div>
@@ -58,8 +58,8 @@ const Hero = () => {
             <motion.img
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
-              transition={{ duration: 0.5 }}
-              src="../../public/photo_2025-01-29_15-41-24.jpg"
+              transition={{ duration: 0.2 }}
+              src="./photo_2025-01-29_15-41-24.jpg"
               className="md:w-full  object-cover mt-16 h-dvh
               shadow-lg rounded-4xl w-5/5"
               alt="frank kamgang"
