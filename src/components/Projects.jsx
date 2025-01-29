@@ -10,7 +10,7 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
         className="my-12 font-bold text-4xl  text-center"
       >
-        Projets
+        Projet
       </motion.h2>
       <div className="flex flex-col justify-center items-center">
         {PROJECTS.map((project, index) => (
