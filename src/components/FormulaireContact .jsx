@@ -12,16 +12,23 @@ const FormulaireContact = () => {
     // Simule un délai avant de montrer le message
     setTimeout(() => {
       setMessageEnvoye(true);
-      // Ouvre l'application de messagerie avec un email pré-rempli
-      window.location.href = `mailto:?subject=${encodeURIComponent(
-        sujet
-      )}&body=${encodeURIComponent(
-        "Bonjour, \n\nJe vous contacte au sujet de : " +
-          sujet +
-          "...\n\nCordialement, " +
-          prenom
-      )}`;
-    }, 2000); // Délai de 2 secondes avant de montrer le message
+
+      // Redirection vers l'application de messagerie après un délai
+      setTimeout(() => {
+        window.location.href = `mailto:?subject=${encodeURIComponent(
+          sujet
+        )}&body=${encodeURIComponent(
+          "Bonjour, \n\nJe vous contacte au sujet de : " +
+            sujet +
+            "...\n\nCordialement, " +
+            prenom
+        )}`;
+      }, 2000); // Délai de 2 secondes avant la redirection
+    }, 1000); // Délai de 1 seconde avant de montrer le message
+  };
+
+  const handleCloseModal = () => {
+    setMessageEnvoye(false);
   };
 
   return (
@@ -65,19 +72,42 @@ const FormulaireContact = () => {
             Envoyer
           </motion.button>
         </form>
+      </div>
 
-        {messageEnvoye && (
+      {/* Message de confirmation centré avec la croix pour fermer */}
+      {messageEnvoye && (
+        <div className="fixed inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-50">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 2, duration: 1 }}
-            className="mt-6 text-center text-green-500 font-semibold"
+            transition={{ delay: 1, duration: 1 }}
+            className="bg-white p-8 rounded-xl shadow-xl text-center max-w-md w-full relative"
           >
-            Votre message a été envoyé ! Vous allez être redirigé vers votre
-            boîte mail.
+            {/* Croix pour fermer le modal */}
+            <button
+              onClick={handleCloseModal}
+              className="absolute top-2 right-2 text-xl font-semibold text-gray-700 hover:text-gray-900 focus:outline-none"
+            >
+              &times;
+            </button>
+
+            <h3 className="text-2xl font-semibold text-green-500">
+              Votre message a été envoyé !
+            </h3>
+            <p className="mt-4 text-gray-700">
+              Vous allez être redirigé vers votre boîte mail.
+            </p>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2, duration: 1 }}
+              className="mt-6 text-sm text-gray-500"
+            >
+              Attendez un instant...
+            </motion.div>
           </motion.div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };
