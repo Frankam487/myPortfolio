@@ -9,11 +9,10 @@ const FormulaireContact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Simule un délai avant de montrer le message
+
     setTimeout(() => {
       setMessageEnvoye(true);
 
-      // Redirection vers l'application de messagerie après un délai
       setTimeout(() => {
         window.location.href = `mailto:?subject=${encodeURIComponent(
           sujet
@@ -23,8 +22,8 @@ const FormulaireContact = () => {
             "...\n\nCordialement, " +
             prenom
         )}`;
-      }, 2000); // Délai de 2 secondes avant la redirection
-    }, 1000); // Délai de 1 seconde avant de montrer le message
+      }, 2000);
+    }, 1000);
   };
 
   const handleCloseModal = () => {
@@ -83,7 +82,7 @@ const FormulaireContact = () => {
             transition={{ delay: 1, duration: 1 }}
             className=" p-8 rounded-xl shadow-xl text-center max-w-md w-full relative"
           >
-            {/* Croix pour fermer le modal */}
+           
             <button
               onClick={handleCloseModal}
               className="absolute top-2 right-2 text-xl font-semibold text-gray-700 hover:text-gray-900 focus:outline-none"
