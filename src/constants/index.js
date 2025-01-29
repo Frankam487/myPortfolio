@@ -3,23 +3,30 @@ import project2 from "../assetss/projects/project-2.jpg";
 import project3 from "../assetss/projects/project-3.jpg";
 import project4 from "../assetss/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Je suis un développeur full stack passionné, avec un talent pour concevoir des applications web robustes et évolutives. Avec 5 ans d'expérience pratique, j'ai affiné mes compétences en technologies front-end comme React et Next.js, ainsi qu'en technologies back-end comme Node.js, MySQL, PostgreSQL et MongoDB. Mon objectif est de tirer parti de mon expertise pour créer des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyvalent, passionné par la création d’applications web efficaces et conviviales. Avec 5 ans d’expérience professionnelle, j’ai travaillé avec diverses technologies, notamment React, Next.js, Node.js, MySQL, PostgreSQL et MongoDB. Mon parcours dans le développement web a commencé par une profonde curiosité sur le fonctionnement des choses, et il s’est transformé en une carrière où je m’efforce constamment d’apprendre et de m’adapter à de nouveaux défis. Je m’épanouis dans des environnements collaboratifs et j’aime résoudre des problèmes complexes pour fournir des solutions de haute qualité. En dehors du code, j’aime rester actif, explorer de nouvelles technologies et contribuer à des projets open source.
+
+
+
+
+
+
+`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Senior Full Stack Developer",
     company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Dirigé une équipe dans le développement et la maintenance d’applications web en utilisant JavaScript, React.js et Node.js. Mis en place des API RESTful et intégré des bases de données MongoDB. Collaboré avec les parties prenantes pour définir les exigences du projet et les délais.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
     company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `Conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. Travaillé en étroite collaboration avec les développeurs back-end pour intégrer les composants front-end avec les API Node.js. Mis en œuvre des designs responsifs et optimisé les performances du front-end.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {

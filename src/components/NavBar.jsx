@@ -1,11 +1,4 @@
 import logo from "../../public/logo.png";
-import {
-  FaLinkedin,
-  FaTwitter,
-  FaFacebook,
-  FaInstagram,
-  FaGithub,
-} from "react-icons/fa";
 import Icons from "./Icons";
 
 const NavBar = () => {
@@ -18,7 +11,8 @@ const NavBar = () => {
           className="animate-logoBounce fl rounded-[110px] mx-2 h-16 md:h-24 p-1"
         />
       </div>
-      <Icons className='p-12 bg-red-500'/>
+
+      <Icons />
     </nav>
   );
 };
