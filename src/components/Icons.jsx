@@ -16,7 +16,7 @@ const Icons = () => {
       <a href="https://t.me/frankam4" target="_blank">
         <FaTelegram className="bounce-slow delay-1500 text-blue-400 hover:scale-110 transition-transform duration-300" />
       </a>
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a href="https://wa.me/+237690461830" target="_blank" rel="noopener noreferrer">
         <FaWhatsapp className="bounce-slow delay-2000 text-green-700 hover:scale-110 transition-transform duration-300" />
       </a>
     </div>

@@ -32,7 +32,7 @@ const FormulaireContact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen ">
+    <div className="flex justify-center items-center  ">
       <div className=" p-8 rounded-xl shadow-xl w-full max-w-md">
         <h2 className="text-3xl font-semibold text-center mb-6">
           Contactez-moi

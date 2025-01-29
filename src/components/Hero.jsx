@@ -43,7 +43,7 @@ const Hero = () => {
               animate="visible"
               className="mt-10 mb-14 text-2xl text-gray-500 text-justify"
             >
-              {/* {HERO_CONTENT} */}
+             
               <TypingText />
             </motion.p>
           </div>
