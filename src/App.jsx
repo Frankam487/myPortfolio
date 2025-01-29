@@ -23,7 +23,6 @@ const App = () => {
         <Experiences />
         <FormContact/>
         <Projects />
-        <TypingText/>
         <FormulaireContact/>
         <Contact />
       </div>
