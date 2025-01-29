@@ -57,7 +57,7 @@ const Hero = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5 }}
-              src="./photo_2025-01-29_15-41-24.jpg"
+              src="../../public/photo_2025-01-29_15-41-24.jpg"
               className="md:w-full  object-cover mt-16 h-dvh
               shadow-lg rounded-4xl w-5/5"
               alt="frank kamgang"

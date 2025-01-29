@@ -1,4 +1,4 @@
-import logo from "../assets/Screenshot 2025-01-28 165533.png";
+import logo from "../../public/logo.png";
 import {
   FaLinkedin,
   FaTwitter,
@@ -14,7 +14,7 @@ const NavBar = () => {
         <img
           src={logo}
           alt="logo"
-          className="animate-logoBounce rounded-[110px] mx-2 h-20 p-1"
+          className="animate-logoBounce fl rounded-[110px] mx-2 h-16 md:h-24 p-1"
         />
       </div>
       <div className="m-8 flex items-center justify-center gap-2 text-3xl">
