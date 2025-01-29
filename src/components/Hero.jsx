@@ -31,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Magicien du Front-End
+              Magicien du Front
               <strong className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text">
                 ~
               </strong>
@@ -43,7 +43,6 @@ const Hero = () => {
               animate="visible"
               className="mt-10 mb-14 text-2xl text-gray-500 text-justify"
             >
-
               <TypingText />
             </motion.p>
           </div>
