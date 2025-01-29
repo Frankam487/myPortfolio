@@ -1,4 +1,3 @@
-
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
@@ -15,11 +14,11 @@ const App = () => {
       <div className="container mx-auto h-screen px-8">
         <NavBar />
         <Hero />
-        <About/>
-        <Technologies/>
-        <Experiences/>
-        <Projects/>
-        <Contact/>
+        <About />
+        <Technologies />
+        <Experiences />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );
