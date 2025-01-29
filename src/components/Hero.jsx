@@ -54,11 +54,10 @@ const Hero = () => {
             className="flex justify-center"
           >
             <motion.img
-              // initial={{x: 100, opacity:0}}
-              // animate={{x:0, opacity: 1}}
-              // transition={{duration: 1, delay: 1.2}}
-
-              src="../../public/photo_2025-01-29_15-41-24.jpg"
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
+              transition={{ duration: 0.5 }}
+              src="./photo_2025-01-29_15-41-24.jpg"
               className="md:w-full  object-cover mt-16 h-dvh
               shadow-lg rounded-4xl w-5/5"
               alt="frank kamgang"
