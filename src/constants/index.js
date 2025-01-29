@@ -33,14 +33,14 @@ export const EXPERIENCES = [
     year: "2021 - 2022",
     role: "Full Stack Developer",
     company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Développé et maintenu des applications web en utilisant JavaScript, React.js et Node.js. Conçu et mis en place des API RESTful pour la communication des données. Collaboré avec des équipes pluridisciplinaires pour livrer des produits logiciels de haute qualité dans les délais impartis.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
     year: "2020 - 2021",
     role: "Software Engineer",
     company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    description: `Contribué au développement d’applications web en utilisant JavaScript, React.js et Node.js. Géré des bases de données et mis en place des solutions de stockage de données avec MongoDB. Travaillé en étroite collaboration avec les chefs de produit pour prioriser les fonctionnalités et les améliorations.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
@@ -50,14 +50,14 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Un site e-commerce entièrement fonctionnel avec des fonctionnalités telles que la liste des produits, le panier d'achat et l'authentification des utilisateurs.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Une application de gestion des tâches et des projets, avec des fonctionnalités telles que la création de tâches, l’attribution et le suivi de la progression.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
