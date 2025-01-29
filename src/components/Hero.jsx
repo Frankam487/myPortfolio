@@ -59,7 +59,7 @@ const Hero = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.2 }}
-              src="../../public/vite.svg"
+              src="./vite.svg"
               className="md:w-full h-20  object-cover mt-16
               shadow-lg rounded-4xl "
               alt="frank kamgang"
