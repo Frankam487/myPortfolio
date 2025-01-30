@@ -42,12 +42,17 @@ const Projects = () => {
             >
               <h3 className="mb-2 text-2xl font-semibold">{project.title}</h3>{" "}
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <div className="flex my-4">
+                <i className="text-red-400">Technos_Used</i>
+              </div>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
+
                   <span
                     className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
                     key={index}
                   >
+
                     {tech}
                   </span>
                 ))}
