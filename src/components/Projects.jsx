@@ -32,7 +32,7 @@ const Projects = () => {
                   width="250"
                   height="250"
                 />
-                <h2 className="p-2 text-center border-2 rounded-b-full text-purple-400 font-extrabold">Ouvrir</h2>
+                <h2 className="py-1  text-center border-2 rounded-b-full w-1/2 mb-12 text-purple-300 font-extrabold">Ouvrir</h2>
               </a>
             </motion.div>
             <motion.div
