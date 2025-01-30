@@ -158,7 +158,7 @@ const FormulaireContact = () => {
 
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-700">Prénom</label>
+            <label className="block text-gray-500">Prénom</label>
             <input
               type="text"
               value={prenom}
@@ -170,7 +170,7 @@ const FormulaireContact = () => {
           </div>
 
           <div className="mb-6">
-            <label className="block text-gray-700">Sujet</label>
+            <label className="block text-gray-500">Sujet</label>
             <input
               type="text"
               value={sujet}
@@ -183,7 +183,7 @@ const FormulaireContact = () => {
 
           <motion.button
             type="submit"
-            className="w-full p-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none"
+            className="w-full p-3  text-white font-semibold rounded-md border"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           >
