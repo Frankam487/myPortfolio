@@ -13,7 +13,10 @@ const Contact = () => {
       <div className="text-center tracking-tight mb-6">
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phoneNo}</p>
-        <a href="mailto:fkamgang06@gmail.com" className=" text-2xl border-b">
+        <a
+          href="mailto:fkamgang06@gmail.com"
+          className="border-b text-lg font-semibold text-purple-500 hover:text-purple-700 transition duration-300 ease-in-out"
+        >
           {CONTACT.email}
         </a>
       </div>
