@@ -130,7 +130,7 @@ const FormulaireContact = () => {
   const [messageEnvoye, setMessageEnvoye] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const destinataire = "ton.email@example.com"; // Remplace par ton adresse e-mail
+  const destinataire = "fkamgang06@gmail.com";
 
   const handleSubmit = (e) => {
     e.preventDefault();
