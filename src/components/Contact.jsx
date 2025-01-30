@@ -1,6 +1,7 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 import Icons from "./Icons";
+import AnimatedSphere from "./AnimatedSphere";
 const Contact = () => {
   return (
     <motion.div
@@ -27,8 +28,11 @@ const Contact = () => {
           </motion.a>
         </motion.div>
       </div>
-      <div className="flex justify-center items-center mr-14">
+      <div className="flex justify-center flex-col items-center mr-14">
         <Icons />
+        <div className="flex items-center justify-center">
+          <AnimatedSphere />
+        </div>
       </div>
     </motion.div>
   );
