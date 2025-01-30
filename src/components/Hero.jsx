@@ -1,6 +1,5 @@
 import {  motion } from "framer-motion";
 import TypingText from "./TypingText";
-import AnimatedCommits from "./AnimatedCommits";
 
 const container = (delay) => ({
   hidden: { x: -100, y: 100, opacity: 0 },
@@ -17,7 +16,7 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start ">
-          <AnimatedCommits/>
+          
             <motion.h1
               variants={container(0)}
               initial="hidden"

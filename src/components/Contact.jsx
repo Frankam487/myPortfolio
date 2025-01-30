@@ -18,7 +18,7 @@ const Contact = () => {
           initial={{ x: 3 }}
           animate={{ x: [5, -4.4, 5] }}
           transition={{ repeat: Infinity, duration: 3.3, ease: "easeInOut" }}
-          className=""
+          
         >
           <motion.a
             href="mailto:fkamgang06@gmail.com"
