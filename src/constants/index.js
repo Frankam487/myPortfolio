@@ -1,5 +1,5 @@
 import project1 from "../assetss/projects/beauty.jpg";
-import project2 from "../assetss/projects/project-2.jpg";
+import project2 from "../assetss/projects/excel2019_logo.svg.png";
 import project3 from "../assetss/projects/project-3.jpg";
 import project4 from "../assetss/projects/project-4.jpg";
 
