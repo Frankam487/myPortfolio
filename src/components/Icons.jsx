@@ -10,13 +10,21 @@ const Icons = () => {
       <a href="https://github.com/Frankam487/" target="_blank">
         <FaGithub className="bounce-slow delay-500 text-gray-500 hover:scale-110 transition-transform duration-300" />
       </a>
-      <a href="" target="_blank">
+      <a
+        href="https://www.instagram.com/frankamdev?igsh=YzljYTk1ODg3Zg=="
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaInstagram className="bounce-slow delay-1000 text-pink-500 hover:scale-110 transition-transform duration-300" />
       </a>
       <a href="https://t.me/frankam4" target="_blank">
         <FaTelegram className="bounce-slow delay-1500 text-blue-400 hover:scale-110 transition-transform duration-300" />
       </a>
-      <a href="https://wa.me/+237690461830" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://wa.me/+237690461830"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaWhatsapp className="bounce-slow delay-2000 text-green-700 hover:scale-110 transition-transform duration-300" />
       </a>
     </div>
