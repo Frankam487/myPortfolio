@@ -5,13 +5,11 @@ import project4 from "../assetss/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Je suis un développeur full stack passionné, avec un talent pour concevoir des applications web robustes et évolutives. Avec 5 ans d'expérience pratique, j'ai affiné mes compétences en technologies front-end comme React et Next.js, ainsi qu'en technologies back-end comme Node.js, MySQL, PostgreSQL et MongoDB. Mon objectif est de tirer parti de mon expertise pour créer des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`;
 
-export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyvalent, passionné par la création d’applications web efficaces et conviviales. Avec 5 ans d’expérience professionnelle, j’ai travaillé avec diverses technologies, notamment React, Next.js, Node.js, MySQL, PostgreSQL et MongoDB. Mon parcours dans le développement web a commencé par une profonde curiosité sur le fonctionnement des choses, et il s’est transformé en une carrière où je m’efforce constamment d’apprendre et de m’adapter à de nouveaux défis. Je m’épanouis dans des environnements collaboratifs et j’aime résoudre des problèmes complexes pour fournir des solutions de haute qualité. En dehors du code, j’aime rester actif, explorer de nouvelles technologies et contribuer à des projets open source.
+export const ABOUT_TEXT = `Je suis un développeur front-end passionné, spécialisé en React et Tailwind CSS, avec une forte sensibilité au design. Depuis le début de mon parcours, j’ai toujours cherché à allier esthétique et performance pour offrir des interfaces modernes, fluides et intuitives. Mon expertise en Photoshop me permet d’aller au-delà du simple développement en concevant des designs soignés et adaptés aux besoins des utilisateurs.
 
+En plus du développement web, je maîtrise également les outils bureautiques comme Word, ce qui me permet de gérer efficacement la documentation et la mise en page de divers supports professionnels. Mon approche repose sur une amélioration continue, une veille technologique active et un souci du détail qui me pousse à créer des expériences numériques engageantes et optimisées.
 
-
-
-
-
+J’aime travailler en équipe, échanger des idées et relever de nouveaux défis techniques pour toujours progresser. Que ce soit pour donner vie à une idée, améliorer une interface existante ou résoudre un problème complexe, je suis toujours prêt à m'investir pleinement dans mes projets.
 `;
 
 export const EXPERIENCES = [
