@@ -31,7 +31,11 @@ const FormulaireContact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center  ">
+    <motion.div
+    whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -210 }}
+              transition={{ duration: 1 }}
+     className="flex justify-center items-center  ">
       <div className=" p-8 rounded-xl shadow-xl w-full max-w-md">
         <h2 className="text-3xl font-semibold text-center mb-6">
           Contactez-moi
@@ -82,7 +86,7 @@ const FormulaireContact = () => {
             transition={{ delay: 1, duration: 1 }}
             className=" p-8 rounded-xl shadow-xl text-center max-w-md w-full relative"
           >
-           
+
             <button
               onClick={handleCloseModal}
               className="absolute top-2 right-2 text-xl font-semibold text-gray-700 hover:text-gray-900 focus:outline-none"
@@ -107,7 +111,7 @@ const FormulaireContact = () => {
           </motion.div>
         </div>
       )}
-    </div>
+    </motion.div>
   );
 };
 
