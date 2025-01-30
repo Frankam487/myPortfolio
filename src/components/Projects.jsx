@@ -12,24 +12,23 @@ const Projects = () => {
       >
         Mes Projets
       </motion.h2>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center gap-4 items-center">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="mb-8 items-center flex flex-wrap lg:justify-between justify-center "
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full  lg:w-1/4"
             >
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="mb-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+                  className="mb-6 rounded-lg flex justify-center items-center shadow-lg transition-transform duration-300 transform hover:scale-105"
                   width="250"
                   height="250"
                 />
@@ -42,7 +41,6 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h3 className="mb-2 text-2xl font-semibold">{project.title}</h3>{" "}
-
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (

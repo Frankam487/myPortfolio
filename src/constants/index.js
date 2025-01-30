@@ -58,28 +58,28 @@ export const PROJECTS = [
     technologies: ["Tailwindcss", "React-icons", "React", "Node.js"],
   },
   {
-    title: "Task Management App",
+    title: "Bureautique",
     image: project2,
-    link: "https://business-beauty.vercel.app/",
+    link: "https://burreautique.vercel.app/",
     description:
-      "Une application de gestion des tâches et des projets, avec des fonctionnalités telles que la création de tâches, l’attribution et le suivi de la progression.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Un site web professionnel dédié aux services de secrétariat bureautique, conçu pour offrir une gestion efficace et simplifiée des tâches administratives. Il permet aux utilisateurs d’accéder à divers services tels que la saisie et la mise en page de documents, l’impression, la photocopie, le scannage, ainsi que des formations en bureautique. Avec une interface intuitive et un design moderne, ce site assure une navigation fluide et une expérience utilisateur optimale.",
+    technologies: ["HTML", "CSS", "Javascript", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Dreyer's Computer",
     image: project3,
-    link: "https://business-beauty.vercel.app/",
+    link: "https://dreyer-computer.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwindcss"],
+      "Un site web dédié aux services de dépannage et d’installation d’ordinateurs, conçu pour offrir une assistance rapide et efficace aux particuliers et aux entreprises. Il présente une gamme complète de services, incluant la réparation matérielle et logicielle, l’installation et la configuration de systèmes, la suppression de virus, ainsi que l’optimisation des performances. Avec une interface claire et intuitive, ce site permet aux utilisateurs de prendre facilement contact et d’obtenir des solutions adaptées à leurs besoins informatiques.",
+    technologies: ["HTML", "Tailwindcss", "Javascript", "Firebase"],
   },
   {
-    title: "Blogging Platform",
+    title: "Auto-Ecole",
     image: project4,
-    link: "https://business-beauty.vercel.app/",
+    link: "https://auto-ecole-psi.vercel.app",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Un site web moderne et intuitif dédié aux services de conduite et de formation à la conduite. Il propose une gamme complète de prestations, allant des cours de code de la route aux leçons de conduite pratique, en passant par la préparation aux examens du permis. Grâce à une interface fluide, les utilisateurs peuvent s’informer sur les différentes offres, s’inscrire en ligne et suivre leur progression. Une solution idéale pour apprendre à conduire en toute confiance avec des instructeurs qualifiés.",
+    technologies: ["ReactJS", "Tailwindcss" , "Firebase"],
   },
 ];
 
