@@ -33,8 +33,7 @@ const Projects = () => {
                   height="250"
                 />
                 <div className="flex items-center">
-
-                <h2 className="py-1 px-2 border rounded  mb-12 text-purple-300">Voir le projet</h2>
+                <h2 className="py-1 px-2 border rounded  mb-12 text-purple-300">Voir Le Projet</h2>
                 <span></span>
                 </div>
               </a>

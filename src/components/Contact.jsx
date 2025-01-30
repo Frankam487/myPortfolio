@@ -13,12 +13,19 @@ const Contact = () => {
       <div className="text-center tracking-tight mb-6">
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phoneNo}</p>
-        <a
-          href="mailto:fkamgang06@gmail.com"
-          className="border-b text-lg font-semibold text-purple-500 hover:text-purple-700 transition duration-300 ease-in-out"
+        <motion.div
+          initial={{ x: 3 }}
+          animate={{ x: [5, -4.4, 5] }}
+          transition={{ repeat: Infinity, duration: 3.3, ease: "easeInOut" }}
+          className=""
         >
-          {CONTACT.email}
-        </a>
+          <motion.a
+            href="mailto:fkamgang06@gmail.com"
+            className="relative text-2xl font-semibold text-purple-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-purple-500 after:transition-all after:duration-300 hover:after:w-full"
+          >
+            {CONTACT.email}
+          </motion.a>
+        </motion.div>
       </div>
       <div className="flex justify-center items-center mr-14">
         <Icons />
