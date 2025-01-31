@@ -117,7 +117,6 @@
 
 // export default FormulaireContact;
 
-
 "use client";
 
 import { useState } from "react";
@@ -130,7 +129,7 @@ const FormulaireContact = () => {
   const [messageEnvoye, setMessageEnvoye] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const destinataire = "fkamgang06@gmail.com";
+  const destinataire = "fkamdev@gmail.com";
 
   const handleSubmit = (e) => {
     e.preventDefault();
