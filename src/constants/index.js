@@ -15,7 +15,7 @@ J’aime travailler en équipe, échanger des idées et relever de nouveaux déf
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Developpeur Full Stack",
+    role: "Developpeur Front-end",
     company: "Google Inc.",
     link: "https://business-beauty.vercel.app",
     description: `Dirigé une équipe dans le développement et la maintenance d’applications web en utilisant JavaScript, React.js et Node.js. Mis en place des API RESTful et intégré des bases de données MongoDB. Collaboré avec les parties prenantes pour définir les exigences du projet et les délais.`,
@@ -23,7 +23,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
+    role: "Developpeur Front-end",
     company: "Adobe",
     link: "https://business-beauty.vercel.app/",
     description: `Conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. Travaillé en étroite collaboration avec les développeurs back-end pour intégrer les composants front-end avec les API Node.js. Mis en œuvre des designs responsifs et optimisé les performances du front-end.`,
@@ -44,7 +44,7 @@ export const EXPERIENCES = [
     company: "Ecole Superieure la Canadienne",
     link: "https://business-beauty.vercel.app",
     description: `Contribué au développement d’applications web en utilisant JavaScript, React.js et Node.js. Géré des bases de données et mis en place des solutions de stockage de données avec MongoDB. Travaillé en étroite collaboration avec les chefs de produit pour prioriser les fonctionnalités et les améliorations.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["ReactJS", "Tailwindcss", "React_icons"],
   },
 ];
 
