@@ -31,7 +31,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2021 - 2022",
-    role: "Developpeur front-end",
+    role: "Developpeur Front-end",
     company: "Ecole Superieure la Canadienne",
 
     link: "https://business-beauty.vercel.app",
