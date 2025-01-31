@@ -27,21 +27,21 @@ export const EXPERIENCES = [
     company: "Adobe",
     link: "https://business-beauty.vercel.app/",
     description: `Conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. Travaillé en étroite collaboration avec les développeurs back-end pour intégrer les composants front-end avec les API Node.js. Mis en œuvre des designs responsifs et optimisé les performances du front-end.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: ["HTML", "Tailwindcss", "javascript", "React-icons"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    role: "Developpeur front-end",
+    company: "Ecole Superieure la Canadienne",
 
     link: "https://business-beauty.vercel.app",
     description: `Développé et maintenu des applications web en utilisant JavaScript, React.js et Node.js. Conçu et mis en place des API RESTful pour la communication des données. Collaboré avec des équipes pluridisciplinaires pour livrer des produits logiciels de haute qualité dans les délais impartis.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["ReactJS", "Tailwindcss", "Three.js", "React-icons"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
+    role: "Developpeur Front-end",
+    company: "Ecole Superieure la Canadienne",
     link: "https://business-beauty.vercel.app",
     description: `Contribué au développement d’applications web en utilisant JavaScript, React.js et Node.js. Géré des bases de données et mis en place des solutions de stockage de données avec MongoDB. Travaillé en étroite collaboration avec les chefs de produit pour prioriser les fonctionnalités et les améliorations.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
@@ -86,5 +86,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Bafoussam",
   phoneNo: "+237 690 461 830 ",
-  email: "fkamgang06@gmail.com",
+  email: "Frankamdev@gmail.com",
 };
