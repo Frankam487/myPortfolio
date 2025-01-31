@@ -117,7 +117,7 @@
 
 // export default FormulaireContact;
 
-"use client";
+// "use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -136,7 +136,7 @@ const FormulaireContact = () => {
     setLoading(true);
     setMessageEnvoye(true);
 
-    const mailContent = `Bonjour,\n\nJe vous contacte au sujet de : ${sujet}\n\nMessage : ${message}\n\nCordialement,\n${prenom}`;
+    const mailContent = `Bonjour,\n\nVotre numero : ${sujet}\n\nMessage : ${message}\n\nCordialement,\n${prenom}`;
 
     navigator.clipboard.writeText(mailContent);
 
