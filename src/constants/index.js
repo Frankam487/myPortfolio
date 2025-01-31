@@ -16,15 +16,15 @@ export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Developpeur Front-end",
-    company: "Google Inc.",
+    company: "Ecole Superieure la Canadienne.",
     link: "https://business-beauty.vercel.app",
     description: `Dirigé une équipe dans le développement et la maintenance d’applications web en utilisant JavaScript, React.js et Node.js. Mis en place des API RESTful et intégré des bases de données MongoDB. Collaboré avec les parties prenantes pour définir les exigences du projet et les délais.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["React.js", "Tailwindcss", "Firebase"],
   },
   {
     year: "2022 - 2023",
     role: "Developpeur Front-end",
-    company: "Adobe",
+    company: "Ecole Superieure la Canadienne",
     link: "https://business-beauty.vercel.app/",
     description: `Conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. Travaillé en étroite collaboration avec les développeurs back-end pour intégrer les composants front-end avec les API Node.js. Mis en œuvre des designs responsifs et optimisé les performances du front-end.`,
     technologies: ["HTML", "Tailwindcss", "javascript", "React-icons"],
