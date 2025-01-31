@@ -228,7 +228,7 @@ const FormulaireContact = () => {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 1 }}
               className="p-8 bg-white rounded-xl shadow-xl text-center max-w-md w-full relative"
             >
               <button
