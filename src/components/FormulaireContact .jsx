@@ -136,7 +136,8 @@ const FormulaireContact = () => {
     setLoading(true);
     setMessageEnvoye(true);
 
-    const mailContent = `Bonjour,\n\nVotre numero : ${sujet}\n\nMessage : ${message}\n\nCordialement,\n${prenom}`;
+    const mailContent = `Bonjour,\n\nVotre numero : ${sujet}\n\nMessage : ${message}
+    vous pouvez tout personnaliser\n\nCordialement,\n${prenom}`;
 
     navigator.clipboard.writeText(mailContent);
 
