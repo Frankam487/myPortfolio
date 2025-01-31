@@ -178,9 +178,9 @@ const FormulaireContact = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-gray-500">Sujet</label>
+            <label className="block text-gray-500">Numero de Telephone</label>
             <input
-              type="text"
+              type="number"
               value={sujet}
               onChange={(e) => setSujet(e.target.value)}
               className="mt-2 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -205,7 +205,7 @@ const FormulaireContact = () => {
             type="submit"
             className="w-full p-3 text-white font-semibold rounded-md border hover:bg-blue-600 transition disabled:bg-gray-400"
             whileHover={{ scale: loading ? 1 : 1.05 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.8 }}
             disabled={loading}
           >
             {loading ? "Envoi..." : "Envoyer"}
