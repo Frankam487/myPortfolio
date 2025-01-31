@@ -73,14 +73,14 @@ export const PROJECTS = [
       "Un site web dédié aux services de dépannage et d’installation d’ordinateurs, conçu pour offrir une assistance rapide et efficace aux particuliers et aux entreprises. Il présente une gamme complète de services, incluant la réparation matérielle et logicielle, l’installation et la configuration de systèmes, la suppression de virus, ainsi que l’optimisation des performances. Avec une interface claire et intuitive, ce site permet aux utilisateurs de prendre facilement contact et d’obtenir des solutions adaptées à leurs besoins informatiques.",
     technologies: ["HTML", "Tailwindcss", "Javascript", "Firebase"],
   },
-  {
-    title: "Auto-Ecole",
-    image: project4,
-    link: "https://auto-ecole-psi.vercel.app",
-    description:
-      "Un site web moderne et intuitif dédié aux services de conduite et de formation à la conduite. Il propose une gamme complète de prestations, allant des cours de code de la route aux leçons de conduite pratique, en passant par la préparation aux examens du permis. Grâce à une interface fluide, les utilisateurs peuvent s’informer sur les différentes offres, s’inscrire en ligne et suivre leur progression. Une solution idéale pour apprendre à conduire en toute confiance avec des instructeurs qualifiés.",
-    technologies: ["ReactJS", "Tailwindcss" , "Firebase"],
-  },
+  // {
+  //   title: "Auto-Ecole",
+  //   image: project4,
+  //   link: "https://auto-ecole-psi.vercel.app",
+  //   description:
+  //     "Un site web moderne et intuitif dédié aux services de conduite et de formation à la conduite. Il propose une gamme complète de prestations, allant des cours de code de la route aux leçons de conduite pratique, en passant par la préparation aux examens du permis. Grâce à une interface fluide, les utilisateurs peuvent s’informer sur les différentes offres, s’inscrire en ligne et suivre leur progression. Une solution idéale pour apprendre à conduire en toute confiance avec des instructeurs qualifiés.",
+  //   technologies: ["ReactJS", "Tailwindcss" , "Firebase"],
+  // },
 ];
 
 export const CONTACT = {
