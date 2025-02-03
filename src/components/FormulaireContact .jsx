@@ -21,7 +21,6 @@ const FormulaireContact = () => {
 
     navigator.clipboard.writeText(mailContent);
 
-    
     setTimeout(() => {
       window.location.href = `mailto:${destinataire}?subject=${encodeURIComponent(
         sujet
