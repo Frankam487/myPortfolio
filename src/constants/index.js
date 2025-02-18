@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     company: "Ecole Superieure la Canadienne.",
     link: "https://business-beauty.vercel.app",
     description: `Dirigé une équipe dans le développement et la maintenance d’applications web en utilisant JavaScript, React.js et Node.js. Mis en place des API RESTful et intégré des bases de données MongoDB. Collaboré avec les parties prenantes pour définir les exigences du projet et les délais.`,
-    technologies: ["React.js", "Tailwindcss", "Firebase"],
+    technologies: ["React.js", "Tailwindcss", "Node JS"],
   },
   {
     year: "2022 - 2023",
@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     company: "Ecole Superieure la Canadienne",
     link: "https://business-beauty.vercel.app/",
     description: `Conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. Travaillé en étroite collaboration avec les développeurs back-end pour intégrer les composants front-end avec les API Node.js. Mis en œuvre des designs responsifs et optimisé les performances du front-end.`,
-    technologies: ["HTML", "Tailwindcss", "javascript", "React-icons"],
+    technologies: ["HTML", "Tailwindcss", "javascript"],
   },
   {
     year: "2021 - 2022",
@@ -73,18 +73,26 @@ export const PROJECTS = [
       "Un site web dédié aux services de dépannage et d’installation d’ordinateurs, conçu pour offrir une assistance rapide et efficace aux particuliers et aux entreprises. Il présente une gamme complète de services, incluant la réparation matérielle et logicielle, l’installation et la configuration de systèmes, la suppression de virus, ainsi que l’optimisation des performances. Avec une interface claire et intuitive, ce site permet aux utilisateurs de prendre facilement contact et d’obtenir des solutions adaptées à leurs besoins informatiques.",
     technologies: ["HTML", "Tailwindcss", "Javascript", "Firebase"],
   },
-  // {
-  //   title: "Auto-Ecole",
-  //   image: project4,
-  //   link: "https://auto-ecole-psi.vercel.app",
-  //   description:
-  //     "Un site web moderne et intuitif dédié aux services de conduite et de formation à la conduite. Il propose une gamme complète de prestations, allant des cours de code de la route aux leçons de conduite pratique, en passant par la préparation aux examens du permis. Grâce à une interface fluide, les utilisateurs peuvent s’informer sur les différentes offres, s’inscrire en ligne et suivre leur progression. Une solution idéale pour apprendre à conduire en toute confiance avec des instructeurs qualifiés.",
-  //   technologies: ["ReactJS", "Tailwindcss" , "Firebase"],
-  // },
+  {
+    title: "Omiie-Tech",
+    image: project4,
+    link: "https://omiie-tech-services.vercel.app/",
+    description:
+      "Un site web dédié aux services de dépannage et d’installation d’ordinateurs, conçu pour offrir une assistance rapide et efficace aux particuliers et aux entreprises. Il présente une gamme complète de services, incluant la réparation matérielle et logicielle, l’installation et la configuration de systèmes, la suppression de virus, ainsi que l’optimisation des performances. Avec une interface claire et intuitive, ce site permet aux utilisateurs de prendre facilement contact et d’obtenir des solutions adaptées à leurs besoins informatiques.",
+    technologies: ["ReactJS", "Tailwindcss", "NodeJS"],
+  },
+  {
+    title: "E-commerce Web site",
+    image: project4,
+    link: "https://Lunimex.com",
+    description:
+      "Luminex est une plateforme e-commerce moderne et intuitive qui propose une large gamme de produits pour répondre aux besoins de tous. Que vous cherchiez des vêtements, des appareils électroniques, des articles pour la maison, des produits de beauté ou encore du matériel high-tech, nous avons ce qu'il vous faut.Avec une interface conviviale et une expérience utilisateur optimisée, ShopExpress vous permet de parcourir des milliers d’articles, de comparer les prix et de profiter des meilleures offres du marché.",
+    technologies: ["WordPress"],
+  },
 ];
 
 export const CONTACT = {
-  address: "Bafoussam",
+  address: "Bafoussam - Sens interdit",
   phoneNo: "+237 690 461 830 ",
   email: "Frankamdev@gmail.com",
 };
