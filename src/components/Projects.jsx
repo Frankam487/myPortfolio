@@ -77,10 +77,11 @@ import { useCallback, useEffect, useState } from "react";
 import { PROJECTS } from "../constants";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const Projects = () => {
+const ProjectsCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "center",
+    dragFree: true,
   });
   const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -115,17 +116,17 @@ const Projects = () => {
       </motion.h2>
 
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">
+        <div className="flex transition-transform duration-500">
           {PROJECTS.map((project, index) => (
             <div
               key={index}
-              className="min-w-full flex flex-col items-center px-6"
+              className="min-w-full flex flex-col items-center px-6 transform scale-95 transition-all duration-300 hover:scale-100"
             >
               <motion.div
                 whileInView={{ opacity: 1, scale: 1 }}
                 initial={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.6 }}
-                className="w-full max-w-lg"
+                className="w-full max-w-lg shadow-xl rounded-xl overflow-hidden"
               >
                 <a
                   href={project.link}
@@ -135,18 +136,20 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+                    className="rounded-lg object-cover w-full h-64 shadow-lg transition-transform duration-300 transform hover:scale-105"
                   />
                 </a>
               </motion.div>
               <div className="mt-6 text-center">
-                <h3 className="text-2xl font-semibold">{project.title}</h3>
+                <h3 className="text-2xl font-semibold text-white">
+                  {project.title}
+                </h3>
                 <p className="text-neutral-400 mt-2">{project.description}</p>
                 <div className="flex flex-wrap justify-center mt-4">
                   {project.technologies.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="mr-2 mb-2 bg-neutral-900 px-3 py-1 text-sm font-medium text-purple-300 rounded"
+                      className="mr-2 mb-2 bg-purple-700 px-3 py-1 text-sm font-medium text-white rounded shadow"
                     >
                       {tech}
                     </span>
@@ -160,15 +163,15 @@ const Projects = () => {
 
       <button
         onClick={scrollPrev}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 p-2 rounded-full shadow-lg hover:bg-gray-700"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-purple-600 p-3 rounded-full shadow-lg hover:bg-purple-500 transition-all"
       >
-        <ChevronLeft size={24} className="text-white" />
+        <ChevronLeft size={28} className="text-white" />
       </button>
       <button
         onClick={scrollNext}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 p-2 rounded-full shadow-lg hover:bg-gray-700"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-purple-600 p-3 rounded-full shadow-lg hover:bg-purple-500 transition-all"
       >
-        <ChevronRight size={24} className="text-white" />
+        <ChevronRight size={28} className="text-white" />
       </button>
 
       <div className="flex justify-center mt-6 space-x-2">
@@ -186,4 +189,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsCarousel;
