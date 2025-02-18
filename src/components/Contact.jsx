@@ -10,27 +10,25 @@ const Contact = () => {
       transition={{ duration: 1 }}
       className="border-b border-neutral-900 pb-20"
     >
-      <motion.h1 className="my-10 text-center text-4xl">Plus d'infos</motion.h1>
+      <h1 className="my-10 text-center text-4xl">Plus d'infos</h1>
       <div className="text-center tracking-tight mb-6">
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phoneNo}</p>
-        <motion.div
-          initial={{ x: 3 }}
-          animate={{ x: [5, -4.4, 5] }}
-          transition={{ repeat: Infinity, duration: 3.3, ease: "easeInOut" }}
+        <div
+          
         >
-          <motion.a
+          <a
             href="mailto:frankamdev@gmail.com"
             className="relative text-2xl font-semibold text-purple-300 after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-purple-500 after:transition-all after:duration-300 hover:after:w-full"
           >
             {CONTACT.email}
-          </motion.a>
-        </motion.div>
+          </a>
+        </div>
       </div>
       <div className="flex justify-center flex-col items-center mr-14">
         <Icons />
         <div className="flex items-center justify-center">
-          <AnimatedSphere />
+          
         </div>
       </div>
     </motion.div>
