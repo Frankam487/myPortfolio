@@ -77,7 +77,7 @@ import { useCallback, useEffect, useState } from "react";
 import { PROJECTS } from "../constants";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const ProjectsCarousel = () => {
+const Projects = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "center",
@@ -189,4 +189,4 @@ const ProjectsCarousel = () => {
   );
 };
 
-export default ProjectsCarousel;
+export default Projects;
